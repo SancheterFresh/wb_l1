@@ -8,7 +8,7 @@ func main() {
 	go func() {
 		for {
 			select {
-			//case для работы программы
+			//case для остановки функции
 			case <-stop:
 				return
 			}
